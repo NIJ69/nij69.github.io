@@ -1,3 +1,4 @@
+theme: jekyll-theme-merlot
 ###########################################################
 ### Welcome to Beautiful Jekyll!
 ### This config file is meant for settings that affect your entire website. When you first
@@ -298,4 +299,4 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-theme: jekyll-theme-merlot
+
