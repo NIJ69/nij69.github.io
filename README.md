@@ -25,11 +25,11 @@ lst = [i * 2 for i in range(10)]
 print(lst)
 ```
 
-<div align="center">
+<div align="center", markdown="1">
 <table>
 <tr><th>df Before</th><th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><th>df After</th></tr>
 <tr><td>
-```markdown
+
 |            |   A |   B |   C |
 |------------|-----|-----|-----|
 | Physics    |     |  69 |  76 |
@@ -37,9 +37,9 @@ print(lst)
 | Calculus   |  75 |  88 |  80 |
 | Biology    |  90 |  73 |  84 |
 | Literature |  67 |  93 |  78 |
-```
+
 </td><td></td><td>
-```markdown
+
 |            |   A |   B |   C |
 |------------|-----|-----|-----|
 | Physics    |  89 |  69 |  76 |
@@ -47,7 +47,7 @@ print(lst)
 | Calculus   |  75 |  88 |  80 |
 | Biology    |  90 |  73 |  84 |
 | Literature |  67 |  93 |  78 |
-```
+
 </td></tr>
 </table>
 </div>
