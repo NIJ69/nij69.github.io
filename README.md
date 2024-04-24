@@ -1,35 +1,22 @@
 # Data Analyst & Python Developer
 
+Hello there!! Welcome to my workspace.
+
 ## Education
 Physics at Marmara University
 
 ### Work Experience
-- ksjfl
-- skdfls
-- fsldkfjls
-- gjaoeifwoejlfasjdflasj
+- Really!
 
 ### Projects
-- sfkaj;sldf
-- sldkflsdfjls
-- aslfjskdsfjashdifahdas
-- fsldkflsdj
+- What projects should I add here?
 
 ### Publications
-1. Let's learn `Pandas`
+1. [Let's learn `Pandas`](www.nijobair.com)
 2. Let's learn `Numpy`
 3. Let's learn `Matplotlib`
 4. Let's learn `SQL`
 
-
-```py
-import pandas as pd     # This is a comment.
-import numpy as np      # This is also a comment.
-import matplotlib.plotly as plt
-
-lst = [i * 2 for i in range(10)]
-print(lst)
-```
 
 <table>
 <tr><th>df Before</th><th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><th>df After</th></tr>
