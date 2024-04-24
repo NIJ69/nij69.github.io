@@ -5,9 +5,9 @@
   font-family: 'Open Sans';
   src: url('../fonts/opensans-regular-webfont.eot');
   src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/opensans-regular-webfont.woff') format('woff'),
-       url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
-       url('../fonts/opensans-regular-webfont.svg#OpenSansRegular') format('svg');
+    url('../fonts/opensans-regular-webfont.woff') format('woff'),
+    url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-regular-webfont.svg#OpenSansRegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -16,9 +16,9 @@
   font-family: 'Open Sans';
   src: url('../fonts/opensans-italic-webfont.eot');
   src: url('../fonts/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/opensans-italic-webfont.woff') format('woff'),
-       url('../fonts/opensans-italic-webfont.ttf') format('truetype'),
-       url('../fonts/opensans-italic-webfont.svg#OpenSansItalic') format('svg');
+    url('../fonts/opensans-italic-webfont.woff') format('woff'),
+    url('../fonts/opensans-italic-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-italic-webfont.svg#OpenSansItalic') format('svg');
   font-weight: normal;
   font-style: italic;
 }
@@ -27,9 +27,9 @@
   font-family: 'Open Sans';
   src: url('../fonts/opensans-bold-webfont.eot');
   src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/opensans-bold-webfont.woff') format('woff'),
-       url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
-       url('../fonts/opensans-bold-webfont.svg#OpenSansBold') format('svg');
+    url('../fonts/opensans-bold-webfont.woff') format('woff'),
+    url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-bold-webfont.svg#OpenSansBold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
@@ -38,9 +38,9 @@
   font-family: 'Open Sans';
   src: url('../fonts/opensans-bolditalic-webfont.eot');
   src: url('../fonts/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/opensans-bolditalic-webfont.woff') format('woff'),
-       url('../fonts/opensans-bolditalic-webfont.ttf') format('truetype'),
-       url('../fonts/opensans-bolditalic-webfont.svg#OpenSansBoldItalic') format('svg');
+    url('../fonts/opensans-bolditalic-webfont.woff') format('woff'),
+    url('../fonts/opensans-bolditalic-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-bolditalic-webfont.svg#OpenSansBoldItalic') format('svg');
   font-weight: bold;
   font-style: italic;
 }
@@ -49,9 +49,9 @@
   font-family: 'Open Sans';
   src: url('../fonts/opensans-extrabold-webfont.eot');
   src: url('../fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/opensans-extrabold-webfont.woff') format('woff'),
-       url('../fonts/opensans-extrabold-webfont.ttf') format('truetype'),
-       url('../fonts/opensans-extrabold-webfont.svg#OpenSansExtrabold') format('svg');
+    url('../fonts/opensans-extrabold-webfont.woff') format('woff'),
+    url('../fonts/opensans-extrabold-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-extrabold-webfont.svg#OpenSansExtrabold') format('svg');
   font-weight: 800;
   font-style: normal;
 }
@@ -61,19 +61,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -81,31 +149,52 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
   list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
   quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-header, footer, section {
+header,
+footer,
+section {
   display: block;
   position: relative;
 }
@@ -114,7 +203,7 @@ header, footer, section {
 
 div.shell {
   display: block;
-  width: 670px;
+  width: 860px;
   margin: 0 auto;
 }
 
@@ -153,7 +242,8 @@ header span.ribbon-inner {
   z-index: 1;
 }
 
-header span.left-tail, header span.right-tail {
+header span.left-tail,
+header span.right-tail {
   position: relative;
   display: block;
   width: 56px;
@@ -182,7 +272,7 @@ header h1 {
   text-transform: uppercase;
   color: #ece4d8;
   text-align: center;
-  line-height:1;
+  line-height: 1;
   padding: 14px 20px 0;
 }
 
@@ -270,7 +360,7 @@ span.banner-fix {
 section#main_content {
   z-index: 2;
   padding: 20px 82px 0;
-  min-height:185px;
+  min-height: 185px;
 }
 
 /* footer */
@@ -314,7 +404,7 @@ footer span.ribbon-inner p {
   margin: 0;
   color: #e69b95;
   font: bold italic 12px/1 Georgia, Times, “Times New Roman”, serif;
-  padding-bottom:4px;
+  padding-bottom: 4px;
 }
 
 footer span.ribbon-inner a {
@@ -332,7 +422,8 @@ footer span.ribbon-inner a:hover {
   color: #7eb0d2;
 }
 
-footer span.left-tail, footer span.right-tail {
+footer span.left-tail,
+footer span.right-tail {
   position: relative;
   display: block;
   width: 18px;
@@ -365,12 +456,13 @@ footer span.octocat {
 
 body {
   background: #ece4d8;
-  font: normal normal 15px/1.5 Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;
+  font: normal normal 15px/1.5 Georgia, Palatino, ” Palatino Linotype”, Times, “Times New Roman”, serif;
   color: #544943;
   -webkit-font-smoothing: antialiased;
 }
 
-a, a:hover {
+a,
+a:hover {
   color: #417090;
 }
 
@@ -382,7 +474,12 @@ a:hover {
   text-decoration: underline;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Open Sans', Myriad, Calibri, sans-serif;
   font-weight: bold;
 }
@@ -490,7 +587,8 @@ td {
   border-width: 0 2px 2px 0;
 }
 
-td:last-child, th:last-child {
+td:last-child,
+th:last-child {
   border-right: none;
 }
 
@@ -517,12 +615,12 @@ dd p:first-child {
 
 /* Content based headers */
 
-#main_content > .header-level-1:first-child,
-#main_content > .header-level-2:first-child,
-#main_content > .header-level-3:first-child,
-#main_content > .header-level-4:first-child,
-#main_content > .header-level-5:first-child,
-#main_content > .header-level-6:first-child {
+#main_content>.header-level-1:first-child,
+#main_content>.header-level-2:first-child,
+#main_content>.header-level-3:first-child,
+#main_content>.header-level-4:first-child,
+#main_content>.header-level-5:first-child,
+#main_content>.header-level-6:first-child {
   margin-top: 0;
 }
 
