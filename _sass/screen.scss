@@ -221,7 +221,10 @@ a#site-logo {
 }
 
 a#site-logo:hover {
-  background-position: 0 -138px;
+  transform: scale(1.1, 1.1);
+  /* Increase size by 10% on hover */
+  transition: transform 0.2s ease-in-out;
+  /* Smooth transition effect */
 }
 
 
