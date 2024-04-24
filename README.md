@@ -15,6 +15,12 @@ Physics at Marmara University
 - aslfjskdsfjashdifahdas
 - fsldkflsdj
 
+### Publications
+1. Let's learn `Pandas`
+2. Let's learn `Numpy`
+3. Let's learn `Matplotlib`
+4. Let's learn `SQL`
+
 
 ```py
 import pandas as pd     # This is a comment.
