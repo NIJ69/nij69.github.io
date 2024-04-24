@@ -207,10 +207,6 @@ div.shell {
   margin: 0 auto;
 }
 
-div.tables {
-  margin: 10px 50px 10px;
-}
-
 /*
 a#forkme_banner {
   position: absolute;
@@ -374,7 +370,7 @@ section#main_content {
 /* footer */
 
 footer {
-  background: transparent url(../images/footer-ramp.jpg) center -1px no-repeat;
+  /*background: transparent url(../images/footer-ramp.jpg) center -1px no-repeat;*/
   padding-top: 104px;
   margin: -94px auto 40px;
   max-width: 860px;
@@ -413,6 +409,7 @@ footer span.ribbon-inner p {
   color: #e69b95;
   font: bold italic 9px/1 Georgia, Times, “Times New Roman”, serif;
   padding-bottom: 4px;
+  padding-top: 4px;
 }
 
 footer span.ribbon-inner a {
@@ -453,13 +450,6 @@ footer span.right-tail {
   right: -11px;
 }
 
-footer span.octocat {
-  background: transparent url(../images/octocat.png) 0 0 no-repeat;
-  display: block;
-  width: 30px;
-  height: 30px;
-  margin: 0 auto;
-}
 
 /* content */
 
