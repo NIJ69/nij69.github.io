@@ -3,12 +3,12 @@ a#forkme_banner {
 }
 
 div.shell {
-  width: 640px;
+  width: 860px;
 }
 
 
 header {
-  max-width:640px;
+  max-width: 860px;
   margin: 0;
   top: 51px;
 }
@@ -18,7 +18,8 @@ header span.ribbon-inner {
   padding: 6px;
 }
 
-header span.left-tail, header span.right-tail {
+header span.left-tail,
+header span.right-tail {
   width: 19px;
   height: 10px;
   background: transparent url(../images/ribbon-tail-sprite-2x.png) 0 0 no-repeat;
@@ -61,11 +62,12 @@ section#main_content {
 }
 
 footer {
-  max-width:640px;
+  max-width: 640px;
   background: none;
 }
 
-footer span.left-tail, footer span.right-tail {
+footer span.left-tail,
+footer span.right-tail {
   width: 23px;
   height: 126px;
   background: transparent url(../images/small-ribbon-tail-sprite-2x.png) 0 0 no-repeat;
@@ -112,7 +114,7 @@ footer span.octocat {
 }
 
 body {
-  font: normal normal 30px/1.5 Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;
+  font: normal normal 30px/1.5 Georgia, Palatino, ” Palatino Linotype”, Times, “Times New Roman”, serif;
 }
 
 ul li {
