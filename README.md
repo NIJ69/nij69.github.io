@@ -12,11 +12,17 @@ Physics at Marmara University
 - What projects should I add here?
 
 ### Publications
-1. [Let's learn `Pandas`](www.nijobair.com)
-2. Let's learn `Numpy`
+1. [Let's learn **`Pandas`**](www.nijobair.com)
+2. [Let's learn **`Numpy`**](www.nijobair.com)
 3. Let's learn `Matplotlib`
 4. Let's learn `SQL`
 
+```sql
+SELECT my_name
+FROM my_table
+WHERE everything_is_fake
+LIMIT 5;
+```
 
 <table>
 <tr><th>df Before</th><th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><th>df After</th></tr>
