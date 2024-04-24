@@ -363,7 +363,7 @@ span.banner-fix {
 
 section#main_content {
   z-index: 2;
-  padding: 20px 82px 0;
+  padding: 60px 82px 0;
   min-height: 185px;
 }
 
@@ -415,11 +415,12 @@ footer span.ribbon-inner a {
   position: relative;
   bottom: -1px;
   color: #7eb0d2;
-  font-family: 'Open Sans', Myriad, Calibri, sans-serif;
+  font: bold italic 12px/1 Georgia, Times, “Times New Roman”, serif;
+  /*font-family: 'Open Sans', Myriad, Calibri, sans-serif;
   text-transform: uppercase;
   font-style: normal;
   font-weight: 800;
-  font-size: 1.2em;
+  font-size: 1.2em;*/
 }
 
 footer span.ribbon-inner a:hover {
