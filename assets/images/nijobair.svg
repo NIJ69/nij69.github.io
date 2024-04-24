@@ -7,7 +7,7 @@
       }
 
       .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
-        stroke: #fff;
+        stroke: #000;
       }
 
       .cls-1, .cls-3 {
@@ -15,7 +15,7 @@
       }
 
       .cls-1, .cls-3, .cls-4, .cls-5 {
-        fill: #fff;
+        fill: #000;
       }
 
       .cls-2 {
