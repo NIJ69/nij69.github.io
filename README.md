@@ -25,7 +25,7 @@ lst = [i * 2 for i in range(10)]
 print(lst)
 ```
 
-<div align="center">
+<div class="tables" align="center">
 <table>
 <tr><th>df Before</th><th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><th>df After</th></tr>
 <tr><td markdown="1">

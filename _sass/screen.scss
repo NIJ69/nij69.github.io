@@ -207,6 +207,10 @@ div.shell {
   margin: 0 auto;
 }
 
+div.tables {
+  width: 78%;
+}
+
 /*
 a#forkme_banner {
   position: absolute;
@@ -565,8 +569,8 @@ table {
   background: #fff6e9;
   display: table;
   border-collapse: separate;
-  border-bottom: 2px solid #bdb6ad;
-  margin: 10px 50px 10px;
+  border-bottom: 1.5px solid #bdb6ad;
+  margin: 5px 5px 5px;
   padding: 10px;
 }
 
