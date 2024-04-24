@@ -556,12 +556,14 @@ pre code {
 }
 
 table {
+  display: contents;
+  /*
   background: #fff6e9;
-  display: table;
   border-collapse: separate;
   border-bottom: 1.5px solid #bdb6ad;
   margin: 5px 5px 5px;
   padding: 10px;
+  */
 }
 
 tr {
