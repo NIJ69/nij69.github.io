@@ -391,16 +391,21 @@ section#main_content {
   z-index: 2;
   padding: 60px 82px 0;
   min-height: 185px;
+  width: 80%
 }
 
 /* footer */
 
 footer {
   /*background: transparent url(../images/footer-ramp.jpg) center -1px no-repeat;*/
-  padding-top: 104px;
-  margin: -94px auto 40px;
-  max-width: 860px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  width: 100%;
+  top: 38px;
 }
 
 footer span.ribbon-outer {
