@@ -240,7 +240,7 @@ header {
   position: relative;
   z-index: 2;
   margin: 0 auto;
-  max-width: 100%;
+  width: 100%;
   top: 38px;
 }
 
@@ -249,8 +249,11 @@ header div.banner-fix {
   display: block;
   height: 19px;
   position: absolute;
-  width: 75%;
   top: 41px;
+}
+
+header span.ribbon-outer {
+  display: flex;
 }
 
 header span.ribbon-inner {
