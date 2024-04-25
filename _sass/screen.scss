@@ -405,7 +405,8 @@ footer {
   z-index: 2;
   margin: 0 auto;
   width: 100%;
-  top: 38px;
+  top: 25px;
+  margin-bottom: 50px;
 }
 
 footer span.ribbon-outer {
@@ -422,6 +423,7 @@ footer span.ribbon-inner {
   padding: 1px;
   z-index: 1;
   justify-content: center;
+  width: 100%;
 }
 
 footer span.ribbon-inner p {
