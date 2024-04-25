@@ -52,7 +52,7 @@ for suit in suit_tuple:
 
 print("OK BYE!!")
 ```
-
+<div>
 <table>
 <tr><th>df Before</th><th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><th>df After</th></tr>
 <tr><td markdown="1">
@@ -79,5 +79,7 @@ print("OK BYE!!")
 
 </td></tr>
 </table>
+</div>
 
 ![Picture](./assets/images/trials.png)
+![Picture](./assets/images/octocat-2x.png)
