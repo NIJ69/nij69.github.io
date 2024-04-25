@@ -394,6 +394,8 @@ section#main_content {
   width: 80%
 }
 
+
+
 /* footer */
 
 footer {
@@ -568,10 +570,6 @@ code {
   color: #ffffff
 }
 
-body code.language-plaintext.highlighter-rough {
-  color: #ffffff;
-}
-
 pre {
   margin: 10px 50px 10px;
   padding: .7em 1.5em;
@@ -579,6 +577,7 @@ pre {
   border-bottom: 2px solid #bdb6ad;
   font: normal normal .9em/1.7 "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
   overflow: auto;
+  max-height: 500px;
 }
 
 pre code {
