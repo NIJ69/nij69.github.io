@@ -12,7 +12,7 @@ Physics at Marmara University
 - What projects should I add here?
 
 ### Publications
-1. [Let's learn **`Pandas`**](www.nijobair.com)
+1. [Let's learn **`Pandas`**](/_posts/2012-09-12-how-to-write-a-blog.md)
 2. [Let's learn **`Numpy`**](www.nijobair.com)
 3. Let's learn `Matplotlib`
 4. Let's learn `SQL`
