@@ -488,6 +488,7 @@ body {
 a,
 a:hover {
   color: #417090;
+  font-weight: bold;
 }
 
 a {
@@ -561,7 +562,7 @@ hr {
 }
 
 code {
-  background: #fff6e9;
+  background: #3a3a3a;
   font: normal normal .8em/1.7 "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
   padding: 0 5px 1px;
 }
@@ -569,7 +570,7 @@ code {
 pre {
   margin: 10px 50px 10px;
   padding: .7em 1.5em;
-  background: #fff6e9;
+  background: #3a3a3a;
   border-bottom: 2px solid #bdb6ad;
   font: normal normal .9em/1.7 "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
   overflow: auto;
