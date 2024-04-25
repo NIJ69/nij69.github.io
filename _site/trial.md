@@ -6,10 +6,10 @@
 
 ```sql
 SELECT
-    my_name,
-    age,
-    class,
-    meeting_date
+        my_name,
+        age,
+        classes,
+        meeting_date
 FROM my_data
 LEFT JOIN your_data
 WHERE we_love_each_other
