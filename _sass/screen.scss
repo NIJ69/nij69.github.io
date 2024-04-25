@@ -578,6 +578,9 @@ pre {
   font: normal normal .9em/1.7 "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
   overflow: auto;
   max-height: 500px;
+  border-radius: 30px;
+  white-space: pre-wrap;
+  /*over-flow: anywhere;*/
 }
 
 pre code {
