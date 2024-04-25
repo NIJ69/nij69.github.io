@@ -84,4 +84,4 @@ print("OK BYE!!")
 ![Picture](./assets/images/trials.png)
 ![Picture](./assets/images/octocat-2x.png)
 
-[Here is another page!](./_site/trial.md)
+[Here is another page!](./assets/trial.md)
