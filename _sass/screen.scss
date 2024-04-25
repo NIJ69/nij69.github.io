@@ -567,6 +567,10 @@ code {
   padding: 0 5px 1px;
 }
 
+code.language-plaintext.highlighter-rough {
+  color: #ffffff;
+}
+
 pre {
   margin: 10px 50px 10px;
   padding: .7em 1.5em;
@@ -581,6 +585,7 @@ pre code {
   padding: 0;
   font-style: italic;
 }
+
 
 table {
   display: contents;
