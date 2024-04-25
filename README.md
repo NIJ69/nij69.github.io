@@ -80,4 +80,4 @@ print("OK BYE!!")
 </td></tr>
 </table>
 
-![Picture](\assets\images\trials.png)
+![Picture](./assets/images/trials.png)
