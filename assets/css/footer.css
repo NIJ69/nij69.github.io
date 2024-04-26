@@ -5,10 +5,7 @@ footer {
     align-items: center;
     position: relative;
     z-index: 2;
-    margin: 0 auto;
     width: 100%;
-    top: 25px;
-    margin-bottom: 50px;
 }
 
 footer span.ribbon-outer {
@@ -22,7 +19,7 @@ footer span.ribbon-inner {
     display: flex;
     background-color: #cd596b;
     border: 2px solid #7c334f;
-    padding: 1px;
+    padding: 1px.2%;
     z-index: 1;
     justify-content: center;
     width: 100%;
@@ -33,15 +30,12 @@ footer span.ribbon-inner p {
     margin: 0;
     color: #e69b95;
     font: normal 9px/1 Georgia, Times, “Times New Roman”, serif;
-    padding-bottom: 4px;
-    padding-top: 4px;
+    padding: .9% 0;
     width: 100%;
     text-align: center;
 }
 
 footer span.ribbon-inner a {
-    position: relative;
-    bottom: -1px;
     color: #7eb0d2;
     font: bold italic 9px/1 Georgia, Times, “Times New Roman”, serif;
     /*font-family: 'Open Sans', Myriad, Calibri, sans-serif;
@@ -52,27 +46,26 @@ footer span.ribbon-inner a {
 }
 
 footer span.ribbon-inner a:hover {
-    color: #7eb0d2;
+    color: #1800b3;
 }
 
 footer span.left-tail,
 footer span.right-tail {
-    position: relative;
-    display: block;
-    width: 18px;
-    height: 29px;
-    background: transparent url(../images/small-ribbon-tail-sprite.png) 0 0 no-repeat;
     position: absolute;
-    bottom: 5px;
+    display: block;
+    width: 25px;
+    height: 100%;
+    background: transparent url(../images/small-ribbon-tail-sprite.png) 0 0 no-repeat;
+    bottom: 35%;
     z-index: 0;
 }
 
 footer span.left-tail {
-    background-position: 0 0;
+    background-position: left;
     left: -11px;
 }
 
 footer span.right-tail {
-    background-position: -18px 0;
+    background-position: right;
     right: -11px;
 }
