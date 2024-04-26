@@ -45,10 +45,6 @@ footer span.ribbon-inner a {
     font-size: 1.2em;*/
 }
 
-footer span.ribbon-inner a:hover {
-    color: #1800b3;
-}
-
 footer span.left-tail,
 footer span.right-tail {
     position: absolute;

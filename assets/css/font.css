@@ -53,9 +53,34 @@
     font-style: normal;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    line-height: 1em;
+}
 
+a {
+    color: #417090;
+    text-decoration: none;
+}
 
+a:hover {
+    text-decoration: underline;
+    color: #1800b3;
+}
 
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
 
 
 

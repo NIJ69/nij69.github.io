@@ -296,7 +296,7 @@ section#main_content {
 /* footer */
 
 footer {
-  margin: 8vh 0 5vh 0;
+  margin: 6vh 0 3vh 0;
 }
 
 /* content */
@@ -308,39 +308,34 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-a,
-a:hover {
-  color: #417090;
+/* Font */
+
+h1 {
+  font-size: 2.5rem;
 }
 
-a {
-  text-decoration: none;
+h2 {
+  font-size: 2.3rem;
 }
 
-a:hover {
-  text-decoration: underline;
+h3 {
+  font-size: 2.1rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
+h4 {
+  font-size: 1.9rem;
+}
+
+h5 {
+  font-size: 1.7rem;
+}
+
 h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
+  font-size: 1.5rem;
 }
 
-p {
+----------- p {
   margin: .7em 0 0;
-}
-
-strong {
-  font-weight: bold;
-}
-
-em {
-  font-style: italic;
 }
 
 ol {
