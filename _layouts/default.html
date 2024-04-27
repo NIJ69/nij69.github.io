@@ -27,42 +27,50 @@
 
 <body>
     <a id="site-logo" href="https://nijobair.github.io/"></a>
-    <div class="shell">
-        <header>
-            <div class="banner-fix"></div>
-            <div class="ribbon-outer">
-                <!-- <span class="left-tail"></span> -->
-                <span class="ribbon-inner">
-                    <h1>{{ site.title | default: site.github.repository_name }}</h1>
-                    <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-                </span>
-                <!-- <span class="right-tail"></span> -->
-            </div>
-        </header>
 
-        <section id="main_content">
-            {{ content }}
-        </section>
 
-        <footer>
-            <span class="ribbon-outer">
-                <!-- <span class="left-tail"></span> -->
-                <span class="ribbon-inner">
-                    {% if site.github.is_project_page %}
-                    <p>this project by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> can be
-                        found on <a href="{{ site.github.repository_url }}">GitHub</a></p>
-                    {% endif %}
-                    {% if site.github.is_user_page %}
-                    <!--<p>Projects by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> can be found
-                        on <a href="{{ site.github.repository_url }}">GitHub</a></p>-->
-                    <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot by <a
-                            href="https://github.com/NIJ69">Nazmul Islam</a></p>
-                    {% endif %}
-                </span>
-                <!-- <span class="right-tail"></span> -->
+    <!-- HEADER -->
+    <header>
+        <div class="banner-fix"></div>
+
+        <div class="ribbon-outer">
+            <span class="left-tail"></span>
+            <span class="ribbon-inner">
+                <h1>{{ site.title | default: site.github.repository_name }}</h1>
+                <h2>{{ site.description | default: site.github.project_tagline }}</h2>
             </span>
-        </footer>
-    </div>
+            <span class="right-tail"></span>
+        </div>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <section id="main_content">
+        {{ content }}
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <span class="ribbon-outer">
+
+            <span class="left-tail"></span>
+            <span class="ribbon-inner">
+                {% if site.github.is_project_page %}
+                <p>this project by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> can be
+                    found on <a href="{{ site.github.repository_url }}">GitHub</a></p>
+                {% endif %}
+                {% if site.github.is_user_page %}
+                <!--<p>Projects by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> can be found
+                    on <a href="{{ site.github.repository_url }}">GitHub</a></p>-->
+                <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot by <a
+                        href="https://github.com/NIJ69">Nazmul Islam</a></p>
+                {% endif %}
+            </span>
+            <span class="right-tail"></span>
+
+        </span>
+    </footer>
 </body>
 
 </html>
