@@ -12,14 +12,6 @@ body {
   width: 80%
 }
 
-div.shell {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  margin: 0 auto;
-}
-
 a#site-logo {
   width: 99px;
   height: 43px;
@@ -116,9 +108,6 @@ header h2 {
 }
 
 section#main_content {
-  z-index: 2;
-  padding: 60px 82px 0;
-  min-height: 185px;
   width: 80%
 }
 
