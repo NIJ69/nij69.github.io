@@ -6,11 +6,10 @@
 @import url("media.css");*/
 
 /* STYLES */
-/* header 
+/* header */
 
 header div.banner-fix {
-  height: 20px;
-  margin-bottom: -7px;
+  height: 17px;
 }
 
 header h1 {
