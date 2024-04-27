@@ -30,9 +30,16 @@ header div.banner-fix {
   margin-bottom: -5px;
 }
 
+header h1 {
+  font-size: 2.5rem;
+}
+
+header h2 {
+  font-size: 1.4rem;
+}
+
 header span.left-tail,
 header span.right-tail {
-  position: relative;
   width: 56px;
   height: 105px;
   bottom: -37px;
@@ -105,7 +112,7 @@ body {
 /* Font */
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 h2 {

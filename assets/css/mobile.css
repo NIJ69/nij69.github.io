@@ -27,12 +27,19 @@ a#site-logo:hover {
 
 header div.banner-fix {
   height: 20px;
-  margin-bottom: -1px;
+  margin-bottom: -7px;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header h2 {
+  font-size: 1rem;
 }
 
 header span.left-tail,
 header span.right-tail {
-  position: relative;
   width: 19px;
   height: 10px;
   bottom: -10px;
@@ -72,7 +79,7 @@ body {
 /* Font */
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 h2 {
