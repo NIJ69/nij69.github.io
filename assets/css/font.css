@@ -26,7 +26,7 @@
     font-style: italic;
 }
 
-
+/* Base font */
 body {
     background: #ece4d8;
     font-family: 'Ubuntu', sans-serif;
@@ -35,26 +35,7 @@ body {
     font-size: 1rem;
 }
 
-a {
-    color: #417090;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #1800b3;
-}
-
-strong {
-    font-weight: bold;
-}
-
-em {
-    font-style: italic;
-}
-
-/* Content based headers */
-
+/* HEADERS */
 #main_content>.header-level-1,
 #main_content>.header-level-2,
 #main_content>.header-level-3,
@@ -72,4 +53,26 @@ em {
 
 .header-level-1 {
     text-align: center;
+}
+
+/* Link font */
+a {
+    color: #417090;
+    text-decoration: none;
+}
+
+/* Link hover font */
+a:hover {
+    text-decoration: underline;
+    color: #1800b3;
+}
+
+/* Bold text */
+strong {
+    font-weight: bold;
+}
+
+/* Italic text */
+em {
+    font-style: italic;
 }
