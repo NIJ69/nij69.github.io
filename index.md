@@ -19,6 +19,10 @@ Physics at Marmara University
 
 And now, here is some base text that I do will do my experiments on. Although, it is taking quite a lot of time. I am hopeful that I will get something good out of it, InShaAllah. May ALLAH keep my family safe and sound and keep Bayan's family safe as well.
 
+*This whole sentence is italic. Did the word 'italic' come from Italy??*
+
+**This whole sentence is bold and I wonder whether it is actually bold or coward.**
+
 
 ### Work Experience
 - Really!
@@ -32,6 +36,7 @@ And now, here is some base text that I do will do my experiments on. Although, i
 3. Let's learn `Matplotlib`
 4. Let's learn `SQL`
 
+<!--
 ```py
 # HigherOrLower
 
@@ -55,6 +60,8 @@ print()
 
 print("OK BYE!!")
 ```
+-->
+
 <div class="df">
 <table>
 <tr><th>df Before</th><th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><th>df After</th></tr>
@@ -84,7 +91,9 @@ print("OK BYE!!")
 </table>
 </div>
 
+<!--
 ![Picture](./assets/images/trials.png)
 ![Picture](./assets/images/octocat-2x.png)
+-->
 
 [Here is another page!](./assets/trial.md)
