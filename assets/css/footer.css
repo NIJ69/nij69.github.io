@@ -28,13 +28,13 @@ footer span.ribbon-inner p {
     padding: .9%;
     width: 100%;
     text-align: center;
+    font-size: x-small;
 }
 
 footer span.ribbon-inner a {
     color: #7eb0d2;
     font-family: 'Lugrasimo', sans-serif;
     font-style: bold;
-    font-size: 1.2em;
 }
 
 footer span.left-tail,
