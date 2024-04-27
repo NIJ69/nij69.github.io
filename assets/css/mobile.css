@@ -6,23 +6,6 @@
 @import url("media.css");
 
 /* STYLES */
-
-body {
-  width: 75%
-}
-
-a#site-logo {
-  width: 99px;
-  height: 43px;
-}
-
-a#site-logo:hover {
-  transform: scale(1.1, 1.1);
-  /* Increase size by 10% on hover */
-  transition: transform 0.2s ease-in-out;
-  /* Smooth transition effect */
-}
-
 /* header */
 
 header div.banner-fix {
@@ -32,6 +15,7 @@ header div.banner-fix {
 
 header h1 {
   font-size: 2rem;
+  line-height: 0.8em;
 }
 
 header h2 {
@@ -55,10 +39,15 @@ header span.right-tail {
   right: 0;
 }
 
+/* body */
 
-/* It is not finished yet*/
+body {
+  width: 75%;
+  margin: 7vh auto 4vh;
+}
+
 section#main_content {
-  padding: 20px 40px 0;
+  width: 90%;
 }
 
 /* footer */
