@@ -29,12 +29,6 @@ def get_card(deck_list_in):
     this_card = deck_list_in.pop()
     return this_card
 
-# Pass in a deck and this function returns a shuffled copy of the deck
-def shuffle(deck_list_in):
-    deck_list_out = deck_list_in.copy()
-    random.shuffle(deck_list_out)
-    return deck_list_out
-
 # Main code
 print("Welcome to Higher or Lower.")
 print(
@@ -44,15 +38,9 @@ print("Getting it right adds 20 points; get it wrong and you lose 15 points.")
 print("You have 50 points to start.")
 print()
 
-starting_deck_list = []
-for suit in suit_tuple:
-    for this_value, rank in enumerate(rank_tuple):
-        card_dict = {"rank": rank, "suit": suit, "value": this_value + 1}
-        starting_deck_list.append(card_dict)
-
 print("OK BYE!!")
 ```
-<div>
+<div class="df">
 <table>
 <tr><th>df Before</th><th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><th>df After</th></tr>
 <tr><td markdown="1">
