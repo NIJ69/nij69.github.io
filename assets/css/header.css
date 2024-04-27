@@ -66,6 +66,7 @@ header h1 {
 
 /* Description */
 header p {
+    font-family: 'Lugrasimo', sans-serif;
     color: #e69b95;
     padding: 0 4% 2%;
     margin-top: -3px;

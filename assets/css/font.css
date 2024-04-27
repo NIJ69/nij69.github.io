@@ -15,7 +15,7 @@
 @font-face {
     font-family: 'Ubuntu';
     src: url('../fonts/Ubuntu-Bold.ttf') format('truetype');
-    font-weight: 500;
+    font-weight: 1000;
     font-style: bold;
 }
 
@@ -24,6 +24,20 @@
     src: url('../fonts/Ubuntu-BoldItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
+}
+
+@font-face {
+    font-family: 'UbuntuMono';
+    src: url('../fonts/UbuntuMono-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lugrasimo';
+    src: url('../fonts/Lugrasimo-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Base font */
