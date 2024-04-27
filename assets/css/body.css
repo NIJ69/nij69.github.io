@@ -14,7 +14,7 @@ div.shell {
 
 section#main_content {
     z-index: 2;
-    padding: 60px 82px 0;
+    padding: 10px 10% 0;
     min-height: 100vh;
 }
 
