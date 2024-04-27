@@ -53,6 +53,15 @@
     font-style: normal;
 }
 
+body {
+    background: #ece4d8;
+    font: Georgia, Palatino, ” Palatino Linotype”, Times, “Times New Roman”, serif;
+    color: #544943;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1rem;
+}
+
+
 h1,
 h2,
 h3,
