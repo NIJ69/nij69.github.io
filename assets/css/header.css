@@ -29,7 +29,7 @@ header div.banner-fix {
     margin-bottom: -2px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
 }
 
 header div.ribbon-outer {
@@ -50,12 +50,16 @@ header span.ribbon-inner {
 header span.left-tail,
 header span.right-tail {
     position: relative;
-    width: 67px;
-    height: 105px;
-    background: transparent url(../images/ribbon-tail-sprite.png) 0 0 no-repeat;
-    bottom: -37px;
+    background: transparent url(../images/ribbon-tail-sprite.png) no-repeat;
     z-index: -1;
-    bottom: -21px;
+}
+
+header span.left-tail {
+    background-position-x: left;
+}
+
+header span.right-tail {
+    background-position-x: right;
 }
 
 /* Title of the website */
@@ -71,6 +75,6 @@ header p {
     font-family: 'Lugrasimo', sans-serif;
     color: #e69b95;
     padding: 0 4% 2%;
-    margin-top: -3px;
+    margin-top: 3px;
     border: none;
 }

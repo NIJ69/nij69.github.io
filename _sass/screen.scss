@@ -23,19 +23,17 @@ header h2 {
 
 header span.left-tail,
 header span.right-tail {
-  width: 56px;
+  width: 70px;
   height: 105px;
-  bottom: -37px;
+  bottom: -19px;
 }
 
 header span.left-tail {
-  background-position: 0 0;
-  left: 0;
+  left: 24px;
 }
 
 header span.right-tail {
-  background-position: -56px 0;
-  right: 0;
+  right: 24px;
 }
 
 /* body */
