@@ -5,16 +5,14 @@
 @import url("others.css");
 @import url("media.css");*/
 
-/* STYLES */
-/* header */
+/*
+------------------------------
+header
+------------------------------
+*/
 
 header div.banner-fix {
   height: 20px;
-}
-
-header h1 {
-  font-size: 2.5rem;
-  line-height: 0.8em;
 }
 
 header h2 {
@@ -23,20 +21,14 @@ header h2 {
 
 header span.left-tail,
 header span.right-tail {
-  width: 70px;
-  height: 105px;
   bottom: -19px;
 }
 
-header span.left-tail {
-  left: 24px;
-}
-
-header span.right-tail {
-  right: 24px;
-}
-
-/* body */
+/*
+------------------------------
+body
+------------------------------
+*/
 
 body {
   width: 65%;

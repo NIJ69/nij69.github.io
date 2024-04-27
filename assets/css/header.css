@@ -52,14 +52,18 @@ header span.right-tail {
     position: relative;
     background: transparent url(../images/ribbon-tail-sprite.png) no-repeat;
     z-index: -1;
+    width: 70px;
+    height: 105px;
 }
 
 header span.left-tail {
     background-position-x: left;
+    left: 24px;
 }
 
 header span.right-tail {
     background-position-x: right;
+    right: 24px;
 }
 
 /* Title of the website */
@@ -68,6 +72,8 @@ header h1 {
     color: #ece4d8;
     padding: 0 4%;
     border: none;
+    font-size: 2.5rem;
+    line-height: 0.8em;
 }
 
 /* Description */
