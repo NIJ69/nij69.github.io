@@ -1,12 +1,12 @@
-@import url("header.css");
 @import url("font.css");
+/*@import url("header.css");
 @import url("body.css");
 @import url("footer.css");
 @import url("others.css");
-@import url("media.css");
+@import url("media.css");*/
 
 /* STYLES */
-/* header */
+/* header 
 
 header div.banner-fix {
   height: 20px;
@@ -39,7 +39,7 @@ header span.right-tail {
   right: 0;
 }
 
-/* body */
+/* body 
 
 body {
   width: 75%;
@@ -50,7 +50,7 @@ section#main_content {
   width: 90%;
 }
 
-/* footer */
+/* footer 
 
 footer {
   margin: 6vh 0 3vh 0;
@@ -84,6 +84,7 @@ h6 {
   font-size: 1.5rem;
 }
 
+/*
 p {
   margin: .7em 0 0;
 }
@@ -146,7 +147,7 @@ pre {
   border-radius: 30px;
   white-space: pre-wrap;
   padding: .2em .8em .2em 2em;
-  /*over-flow: anywhere;*/
+  /*over-flow: anywhere;
 }
 
 pre code {

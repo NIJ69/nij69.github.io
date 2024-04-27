@@ -1,12 +1,12 @@
-@import url("header.css");
 @import url("font.css");
+/*@import url("header.css");
 @import url("body.css");
 @import url("footer.css");
 @import url("others.css");
-@import url("media.css");
+@import url("media.css");*/
 
 /* STYLES */
-/* header */
+/* header
 
 header div.banner-fix {
   height: 18px;
@@ -39,7 +39,7 @@ header span.right-tail {
   right: 0;
 }
 
-/* body */
+/* body
 
 body {
   width: 65%;
@@ -83,7 +83,7 @@ section#main_content {
 //   word-wrap: normal !important;
 // }
 
-/* footer */
+/* footer
 
 footer {
   margin: 8vh 0 4vh 0;
@@ -117,6 +117,7 @@ h6 {
   font-size: 1.5rem;
 }
 
+/*
 p {
   margin: .7em 0;
 }
@@ -145,6 +146,7 @@ blockquote {
   background: transparent url('../images/blockquote-gfx.png') 0 4px no-repeat;
 }
 
+/*
 img {
   -webkit-box-shadow: 0px 2px 0px #bdb6ad;
   -moz-box-shadow: 0px 2px 0px #bdb6ad;
@@ -179,7 +181,7 @@ pre {
   border-radius: 30px;
   white-space: pre-wrap;
   padding: .2em .8em .2em 2em;
-  /*over-flow: anywhere;*/
+  /*over-flow: anywhere;
 }
 
 pre code {
