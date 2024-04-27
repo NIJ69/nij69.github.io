@@ -178,24 +178,25 @@ dd p:first-child {
 /* Content based headers */
 
 .header-level-1 {
-  font-size: 1.85em;
+  font-size: 1.9rem;
 }
 
 .header-level-2 {
-  font-size: 1.58em;
+  font-size: 1.6rem;
+}
 
-  .header-level-3 {
-    font-size: 1.45em;
-  }
+.header-level-3 {
+  font-size: 1.35rem;
+}
 
-  .header-level-4 {
-    font-size: 1.2em;
-  }
+.header-level-4 {
+  font-size: 1.15rem;
+}
 
-  .header-level-5 {
-    font-size: 1em;
-  }
+.header-level-5 {
+  font-size: .97rem;
+}
 
-  .header-level-6 {
-    font-size: .85em;
-  }
+.header-level-6 {
+  font-size: .8rem;
+}

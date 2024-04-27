@@ -62,7 +62,6 @@ em {
 #main_content>.header-level-5,
 #main_content>.header-level-6 {
     font-family: 'Ubuntu', sans-serif;
-    font-weight: 800;
     color: #7c334f;
     font-style: italic;
     margin: .25em .25em 0;
@@ -74,76 +73,3 @@ em {
 .header-level-1 {
     text-align: center;
 }
-
-
-
-/*
-#2be232a {
-    font-family: 'Ubuntu';
-    font-size: 3rem;
-    font-weight: 500;
-    line-height: 1em;
-}
-
-#460478c {
-    font-family: 'Ubuntu';
-    font-size: 2.7rem;
-    font-weight: 500;
-    line-height: 1em;
-}
-
-#78a1072 {
-    font-family: 'Ubuntu';
-    font-size: 2.4rem;
-    font-weight: 500;
-    line-height: 1em;
-}
-
-#6473b1e {
-    font-family: 'Ubuntu';
-    font-size: 2.1rem;
-    font-weight: 500;
-    line-height: 1em;
-}
-
-#ec77d02 {
-    font-family: 'Ubuntu';
-    font-size: 1.8rem;
-    font-weight: 500;
-    line-height: 1em;
-}
-
-#ea36223 {
-    font-family: 'Ubuntu';
-    font-size: 1.5rem;
-    font-weight: 500;
-    line-height: 1em;
-}
-
-@media screen and (max-width: 768px) {
-    #2be232a {
-        font-size: 2.5rem;
-    }
-
-    #460478c {
-        font-size: 2.3rem;
-    }
-
-    #78a1072 {
-        font-size: 2.1rem;
-    }
-
-    #6473b1e {
-        font-size: 1.9rem;
-    }
-
-    #ec77d02 {
-        font-size: 1.7rem;
-    }
-
-    #ea36223 {
-        font-size: 1.5rem;
-    }
-}
-
-*/
