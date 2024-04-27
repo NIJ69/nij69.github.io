@@ -87,7 +87,6 @@ video {
     vertical-align: baseline;
 }
 
-html,
 body {
     display: flex;
     flex-direction: column;
