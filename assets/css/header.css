@@ -57,6 +57,7 @@ header span.right-tail {
     z-index: -1;
 }
 
+/* Title of the website */
 header h1 {
     text-transform: uppercase;
     color: #ece4d8;

@@ -36,11 +36,17 @@ body {
 }
 
 /* HEADERS */
+h1,
 #main_content>.header-level-1,
+h2,
 #main_content>.header-level-2,
+h3,
 #main_content>.header-level-3,
+h4,
 #main_content>.header-level-4,
+h5,
 #main_content>.header-level-5,
+h6,
 #main_content>.header-level-6 {
     font-family: 'Ubuntu', sans-serif;
     color: #7c334f;
