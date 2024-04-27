@@ -1,7 +1,7 @@
 @import url("font.css");
 @import url("header.css");
-/*@import url("body.css");
-@import url("footer.css");
+@import url("body.css");
+/*@import url("footer.css");
 @import url("others.css");
 @import url("media.css");*/
 
@@ -39,7 +39,7 @@ header span.right-tail {
   right: 0;
 }
 
-/* body 
+/* body */
 
 body {
   width: 75%;

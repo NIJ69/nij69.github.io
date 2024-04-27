@@ -40,27 +40,27 @@ header span.ribbon-inner {
     flex-direction: column;
     align-items: center;
     background-color: #7c334f;
-    padding: 4px;
+    padding: 1%;
     width: 100%;
-    margin-top: 0;
+    height: fit-content;
 }
 
 header span.left-tail,
 header span.right-tail {
     position: relative;
-    display: block;
-    width: 56px;
+    width: 67px;
     height: 105px;
     background: transparent url(../images/ribbon-tail-sprite.png) 0 0 no-repeat;
     bottom: -37px;
     z-index: -1;
+    bottom: -21px;
 }
 
 /* Title of the website */
 header h1 {
     text-transform: uppercase;
     color: #ece4d8;
-    padding: 2% 4% 0;
+    padding: 0 4%;
     border: none;
 }
 
