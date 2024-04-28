@@ -10,17 +10,17 @@ footer {
 
 footer span.ribbon-outer {
     display: flex;
-    border-bottom: 2px solid #bdb6ad;
     width: 100%;
 }
 
 footer span.ribbon-inner {
     display: flex;
     background-color: #7c334f;
+    border-bottom: 2px solid #bdb6ad;
     padding: .05% .2%;
     z-index: 1;
-    justify-content: center;
     width: 100%;
+    align-items: center;
 }
 
 footer span.ribbon-inner p {
