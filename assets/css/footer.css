@@ -45,14 +45,15 @@ footer span.right-tail {
     height: 29px;
     width: 21px;
     bottom: 8px;
+    z-index: -1;
 }
 
 footer span.left-tail {
     background-position: left;
-    left: -11px;
+    left: 8px;
 }
 
 footer span.right-tail {
     background-position: right;
-    right: -11px;
+    right: 8px;
 }
