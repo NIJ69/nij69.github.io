@@ -51,7 +51,6 @@ header span.left-tail,
 header span.right-tail {
     position: relative;
     background: transparent url(../images/ribbon-tail-sprite.png) no-repeat;
-    z-index: -1;
     width: 70px;
     height: 105px;
 }

@@ -42,9 +42,9 @@ footer span.left-tail,
 footer span.right-tail {
     position: relative;
     background: transparent url(../images/small-ribbon-tail-sprite.png) no-repeat;
-    height: 100%;
-    bottom: 35%;
-    z-index: -1;
+    height: 29px;
+    width: 21px;
+    bottom: 8px;
 }
 
 footer span.left-tail {
