@@ -17,7 +17,7 @@ Physics at Marmara University
 
 ###### This is header 6 example. Right?
 
-> I am not listening to you.
+> I am not listening to you. But I am not sure whether I understand what you are saying or not. Nonetheless, you will have my full attention. I might not fully understand you, but I am trying my best, and I will always keep trying. LOVE YOU!!
 
 And now, here is some base text that I do will do my experiments on. Although, it is taking quite a lot of time. I am hopeful that I will get something good out of it, InShaAllah. May ALLAH keep my family safe and sound and keep Bayan's family safe as well.
 
