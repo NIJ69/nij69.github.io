@@ -20,21 +20,23 @@ footer span.ribbon-inner {
     z-index: 1;
     width: 100%;
     align-items: center;
+    height: fit-content;
 }
 
 footer span.ribbon-inner p {
     color: #e69b95;
-    padding: .9%;
+    padding: .3%;
     width: 100%;
     text-align: center;
     font-size: x-small;
-    margin: .4%;
+    margin: .3%;
+    font-weight: bold;
 }
 
 footer span.ribbon-inner a {
     color: #7eb0d2;
     font-family: 'Lugrasimo', sans-serif;
-    font-style: bold;
+    font-weight: bold;
 }
 
 footer span.left-tail,
