@@ -71,9 +71,9 @@ unordered list
 
 blockquote {
     font-family: 'Ubuntu', sans-serif;
-    margin: .7em .25 0;
+    margin: .7em .25em 0;
     color: #8b786f;
-    padding-left: 3.5em;
+    padding-left: 1.5em;
     background: transparent url('../images/blockquote-gfx.png') no-repeat;
     background-size: 10px;
     background-position-x: 10px;
