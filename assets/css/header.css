@@ -57,12 +57,12 @@ header span.right-tail {
 }
 
 header span.left-tail {
-    background-position-x: left;
+    background-position: left;
     left: 24px;
 }
 
 header span.right-tail {
-    background-position-x: right;
+    background-position: right;
     right: 24px;
 }
 
