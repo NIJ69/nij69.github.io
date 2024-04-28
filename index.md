@@ -19,8 +19,6 @@ Physics at Marmara University
 
 > I am not listening to you.
 
->> Okay, I am listening to you.
-
 And now, here is some base text that I do will do my experiments on. Although, it is taking quite a lot of time. I am hopeful that I will get something good out of it, InShaAllah. May ALLAH keep my family safe and sound and keep Bayan's family safe as well.
 
 *This whole sentence is italic. Did the word 'italic' come from Italy??*

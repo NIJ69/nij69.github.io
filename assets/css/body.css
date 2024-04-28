@@ -32,7 +32,7 @@ paragraph
 */
 
 p {
-    margin: .7em 0 0;
+    margin: .7em .25em 0;
 }
 
 /*
@@ -42,9 +42,9 @@ ordered list
 */
 
 ol {
-    margin: .7em 0 0;
+    margin: .7em .25em 0;
     list-style-type: decimal;
-    padding-left: 1.5em;
+    padding-left: 3.5em;
 }
 
 /*
@@ -54,8 +54,8 @@ unordered list
 */
 
 ul {
-    margin: .7em 0 0;
-    padding-left: 1.5em;
+    margin: .7em .25em 0;
+    padding-left: 3.5em;
 }
 
 ul li {
@@ -71,8 +71,10 @@ unordered list
 
 blockquote {
     font-family: 'Ubuntu', sans-serif;
-    margin: .7em 0 0;
+    margin: .7em .25 0;
     color: #8b786f;
-    padding-left: 1.5em;
-    background: transparent url('../images/blockquote-gfx.png') 0 4px no-repeat;
+    padding-left: 3.5em;
+    background: transparent url('../images/blockquote-gfx.png') no-repeat;
+    background-size: 10px;
+    background-position-x: 10px;
 }
