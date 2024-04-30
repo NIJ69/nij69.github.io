@@ -38,7 +38,7 @@ And now, here is some base text that I do will do my experiments on. Although, i
 3. Let's learn `Matplotlib`
 4. Let's learn `SQL`
 
-
+<!--
 ```py
 # HigherOrLower
 
@@ -93,7 +93,7 @@ print("OK BYE!!")
 </table>
 </div>
 
-<!--
+
 ![Picture](./assets/images/trials.png)
 ![Picture](./assets/images/octocat-2x.png)
 -->
