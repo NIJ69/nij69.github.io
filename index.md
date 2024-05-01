@@ -106,9 +106,7 @@ if __name__ == "__main__":
 ```
 
 <div class="df">
-<div class="df_before">
-
-df_before
+<div class="df_before" markdown="1">
 
 |            |   A |   B |   C |   D |   E |
 |------------|-----|-----|-----|-----|-----|
@@ -121,9 +119,7 @@ df_before
 
 </div>
 
-<div class="df_after">
-
-df_after
+<div class="df_after" markdown="1">
 
 |            |   A |   B |   C |   D |   E |
 |------------|-----|-----|-----|-----|-----|
