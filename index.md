@@ -108,6 +108,8 @@ if __name__ == "__main__":
 <div class="df">
 <div class="df_before" markdown="1">
 
+df_before
+
 |            |   A |   B |   C |   D |   E |
 |------------|-----|-----|-----|-----|-----|
 | Physics    |  `89` |  69 |  76 |  69 |  89 |
@@ -120,6 +122,8 @@ if __name__ == "__main__":
 </div>
 
 <div class="df_after" markdown="1">
+
+df_after
 
 |            |   A |   B |   C |   D |   E |
 |------------|-----|-----|-----|-----|-----|
