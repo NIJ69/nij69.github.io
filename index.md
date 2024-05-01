@@ -107,7 +107,7 @@ if __name__ == "__main__":
 
 <div class="df">
 <div class="df_before" markdown="1">
-<p class="caption">CAPTION 01</p>
+<p class="table_caption">df_before</p>
 
 |            |   A |   B |   C |   D |   E |
 |------------|-----|-----|-----|-----|-----|
@@ -121,7 +121,7 @@ if __name__ == "__main__":
 </div>
 
 <div class="df_after" markdown="1">
-<p class="caption">CAPTION 02</p>
+<p class="table_caption">df_after</p>
 
 |            |   A |   B |   C |   D |   E |
 |------------|-----|-----|-----|-----|-----|
