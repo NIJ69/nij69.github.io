@@ -20,7 +20,7 @@ df_before & df_after
     flex-direction: column;
     flex-grow: 1;
     min-width: 50%;
-    justify-content: center;
+    align-items: center;
 }
 
 /*
@@ -83,4 +83,6 @@ Table caption
 .table_caption {
     font-family: 'Lugrasimo', sans-serif;
     text-align: center;
+    text-decoration: underline;
+    color: #aa0000;
 }
