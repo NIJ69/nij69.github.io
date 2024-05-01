@@ -40,27 +40,69 @@ And now, here is some base text that I do will do my experiments on. Although, i
 
 <!--
 ```py
-# HigherOrLower
+# Sample Python script for testing syntax highlighter
 
-import random
+# Importing libraries
+import math
+from datetime import datetime
 
-ncards = 8
+# Global variables
+global_var = 10
+PI = math.pi
 
-# Pass in a deck and this function returns a random card from the deck
-def get_card(deck_list_in):
-    this_card = deck_list_in.pop()
-    return this_card
+# Function definitions
+def greet(name):
+    """
+    This function greets the user.
+    """
+    print(f"Hello, {name}!")
 
-# Main code
-print("Welcome to Higher or Lower.")
-print(
-    "You have to choose whether the next card to be shown will be higher or lower than the current card."
-)
-print("Getting it right adds 20 points; get it wrong and you lose 15 points.")
-print("You have 50 points to start.")
-print()
+def calculate_circle_area(radius):
+    """
+    This function calculates the area of a circle.
+    """
+    return PI * radius ** 2
 
-print("OK BYE!!")
+# Class definition
+class Person:
+    """
+    This class represents a person.
+    """
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def display_info(self):
+        """
+        This method displays information about the person.
+        """
+        print(f"Name: {self.name}, Age: {self.age}")
+
+# Conditional statements
+if __name__ == "__main__":
+    # Variable assignment
+    x = 5
+    y = 3
+
+    # Arithmetic operations
+    z = x + y
+
+    # Function call
+    greet("Alice")
+
+    # Printing results
+    print("Sum:", z)
+
+    # Looping structures
+    for i in range(3):
+        print("Iteration:", i)
+
+    # Object instantiation
+    person = Person("Bob", 30)
+
+    # Method call
+    person.display_info()
+
 ```
 -->
 
