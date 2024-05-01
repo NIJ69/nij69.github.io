@@ -107,8 +107,7 @@ if __name__ == "__main__":
 
 <div class="df">
 <div class="df_before" markdown="1">
-
-df_before
+<p class="caption">CAPTION 01</p>
 
 |            |   A |   B |   C |   D |   E |
 |------------|-----|-----|-----|-----|-----|
@@ -122,8 +121,7 @@ df_before
 </div>
 
 <div class="df_after" markdown="1">
-
-df_after
+<p class="caption">CAPTION 02</p>
 
 |            |   A |   B |   C |   D |   E |
 |------------|-----|-----|-----|-----|-----|
