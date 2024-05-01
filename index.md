@@ -96,6 +96,5 @@ df_after
 
 
 ![Picture](./assets/images/trials.png)
-![Picture](./assets/images/octocat-2x.png)
 
 [Here is another page!](./assets/trial.md)
