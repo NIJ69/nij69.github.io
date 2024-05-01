@@ -38,7 +38,7 @@ And now, here is some base text that I do will do my experiments on. Although, i
 3. Let's learn `Matplotlib`
 4. Let's learn `SQL`
 
-<!--
+
 ```py
 # Sample Python script for testing syntax highlighter
 
@@ -104,7 +104,6 @@ if __name__ == "__main__":
     person.display_info()
 
 ```
--->
 
 <div class="df">
 <div class="df_before">
