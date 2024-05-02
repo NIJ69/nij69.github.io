@@ -5,16 +5,7 @@
 <html lang="{{ site.lang | default: " en-US" }}">
 
 <head>
-    <meta charset='utf-8'>
-
-    <meta name="viewport" content="width:device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <!-- <link rel="stylesheet" href="{{ '/assets/css/mobile.css' | relative_url }}" media="screen and (max-width:764px)"> -->
-
-    <script src="{{ '/assets/js/modernizr.js' | relative_url }}"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    {% include head.html %}
 </head>
 
 
@@ -22,22 +13,10 @@
     <a id="site-logo" href="https://nijobair.github.io/"></a>
 
     <div class="wrapper">
+
         <!-- HEADER -->
         <header>
-            <div class="banner-fix"></div>
-
-            <div class="ribbon-outer">
-
-                <span class="left-tail"></span>
-
-                <span class="ribbon-inner">
-                    <h1>{{ site.title }}</h1>
-                    <p>{{ site.description }}</p>
-                </span>
-
-                <span class="right-tail"></span>
-
-            </div>
+            {% include header.html %}
         </header>
 
 
