@@ -138,4 +138,4 @@ if __name__ == "__main__":
 
 ![Picture](./assets/images/trials.png)
 
-[Here is another page!](./assets/trial.md)
+[Here is another page!](/example_page.md)
