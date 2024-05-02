@@ -12,4 +12,6 @@ This website showcases my work, including data analysis projects, research publi
 
 ## Publications
 
+- [One of the posts](/_posts/2012-09-12-how-to-write-a-blog.md)
+
 ## Experiences
