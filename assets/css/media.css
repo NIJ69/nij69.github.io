@@ -5,6 +5,6 @@ Image
 */
 img {
     width: 100%;
-    box-shadow: 2px 2px 4px 0px #474746;
+    box-shadow: 0px 2px 2px 0px #474746;
     margin-top: clamp(10px, 1.8vw, 20px);
 }

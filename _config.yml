@@ -15,3 +15,12 @@ sass:
   load_paths:
     - "assets/css"
     - "_sass"
+
+defaults:
+  -
+    scope:
+      path: ""          # which files the defaults applies to.
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /posts/:title

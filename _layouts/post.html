@@ -6,49 +6,11 @@ layout: default
 {% if page.image %}
 <img src="{{ page.image | relative_url }}" alt="" class="featured-image">
 {% else %}
-{% assign featured_image = "/assets/images/featured-default.png" %}
-<img src="{{ featured_image | relative_url }}" alt="" class="featured-image">
+<img src="{{ '/assets/images/featured_default.png' | asset_url }}" alt="" class="featured-image">
 {% endif %}
+
 
 <h1>{{ page.title }}</h1>
 <p style="font-family: 'UbuntuMono', sans-serif; text-align: right;">{{ page.date | date_to_string }}</p>
 
 {{ content }}
-
-<!--
-<ul>
-    {% for post in site.posts %}
-    <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-</ul>
--->
-
-<!-- <div class="post-nav">
-    <div>
-        {% if page.previous.url %}
-        <a href="{{ page.previous.url }}">
-            <span class="unsighted">Previous post:</span>
-            <span aria-hidden="true">&laquo;</span>
-            {{ page.previous.title }}
-        </a>
-        {% endif %}
-    </div>
-    <div class="post-nav-next">
-        {% if page.next.url %}
-        {% assign next_post_title_array = page.next.title | split: " " %}
-        {% assign next_post_cape_length = next_post_title_array | size | minus: 1 %}
-        {% assign next_post_cape = page.next.title | truncatewords: next_post_cape_length, "" %}
-        {% assign next_post_spit = next_post_title_array | last %}
-        <a href="{{ page.next.url }}">
-            <span class="unsighted">Next post:</span>
-            {{next_post_cape}}
-            <span style="white-space: nowrap;">
-                {{ next_post_spit }}
-                <span aria-hidden="true">&raquo;</span>
-            </span>
-        </a>
-        {% endif %}
-    </div>
-</div> -->
