@@ -1,11 +1,12 @@
 title: Nazmul Islam
 description: A continuous learner
+author: Nazmul Islam
 
 
 show_downloads: false
 
 
-theme: jekyll-theme-merlot
+# theme: jekyll-theme-merlot
 markdown: kramdown
 
 

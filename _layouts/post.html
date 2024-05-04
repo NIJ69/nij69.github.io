@@ -2,9 +2,16 @@
 layout: default
 ---
 
-{{ page. image | relative_url }}
+<!-- Featured image-->
+{% if page.image %}
+<img src="{{ page.image | relative_url }}" alt="" class="featured-image">
+{% else %}
+{% assign featured_image = "/assets/images/featured-default.png" %}
+<img src="{{ featured_image | relative_url }}" alt="" class="featured-image">
+{% endif %}
+
 <h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+<p style="font-family: 'Lugrasimo', sans-serif; text-align: right;">{{ page.date | date_to_string }}</p>
 
 {{ content }}
 

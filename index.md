@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 <!-- Introduction -->
 # Data Analyst & Physics Lover
 
@@ -27,4 +32,6 @@ This website showcases my work, including data analysis projects, research publi
 
 - How do I think of OOP as a Physics major?
 
-- 
+- [SQL]({% post_url 2024-05-04-how-to-make-sense-of-sql %})
+
+- [Jekyll posts]({% post_url 2012-09-12-how-to-write-a-blog %})
