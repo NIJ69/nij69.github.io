@@ -8,3 +8,34 @@ img {
     box-shadow: 0px 2px 2px 0px #474746;
     margin-top: clamp(10px, 1.8vw, 20px);
 }
+
+/*
+------------------------------------------------------------
+Badges
+------------------------------------------------------------
+*/
+.achievements {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        max-width: 20%;
+        align-items: center;
+        padding: 1em;
+
+        img {
+            margin: 0;
+            box-shadow: none;
+        }
+
+        a {
+            font-family: 'UbuntuMono', sans-serif;
+            text-align: center;
+        }
+    }
+}

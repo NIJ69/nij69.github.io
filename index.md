@@ -14,7 +14,7 @@ This website showcases my work, including data analysis projects, research publi
 <!-- Educational information -->
 ## Education
 
-- Studied Physics at the University of Dhaka in Bangladesh.
+- Studied Physics at the [University of Dhaka](https://www.du.ac.bd/) in Bangladesh.
 
 - Studying Physics at [Marmara University](http://fzk.fen.marmara.edu.tr/en/) with the prestigious full-ride [Türkiye Bursları](https://www.turkiyeburslari.gov.tr/) (Turkish Scholarships).
 
@@ -24,8 +24,9 @@ This website showcases my work, including data analysis projects, research publi
 
 
 <!-- Acquired certifications -->
-## Certifications
+## Achievements
 
+{% include badges.html %}
 
 <!-- Publications: blog, tutorial, papers, learning resources, etc. -->
 ## Publications
