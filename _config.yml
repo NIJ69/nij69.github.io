@@ -19,7 +19,7 @@ sass:
 defaults:
   -
     scope:
-      path: ""          # which files the defaults applies to.
+      path: ""
       type: "posts"
     values:
       layout: "post"
