@@ -33,9 +33,11 @@ Badges
             box-shadow: none;
         }
 
-        a {
-            font-family: 'UbuntuMono', sans-serif;
-            text-align: center;
+        img:hover {
+            transform: scale(1.1, 1.1);
+            /* Increase size by 10% on hover */
+            transition: transform 0.4s ease-in-out;
+            /* Smooth transition effect */
         }
     }
 }
