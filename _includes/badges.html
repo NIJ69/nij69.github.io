@@ -1,31 +1,15 @@
+{% assign title = "View Credential" %}
+
 <div class="achievements">
+
+    {% for badge in site.data.badges %}
+
     <div>
-        <a href="https://www.credential.net/374b93e3-87a5-423d-b8c2-7af67df10723" target="_blank" class="accredition">
-            <img class="badges" src="/assets/images/badges/MECC_completion_badge.png" alt="MECC completion badge"
-                title="View Credential">
+        <a href="{{ badge.link }}" target="_blank" class="accredition">
+            <img class="badges" src="{{ badge.logo }}" alt="{{ badge. alt_text}}" title="{{ title }}">
         </a>
     </div>
 
-    <div>
-        <a href="https://www.credly.com/badges/40ca3303-5bfe-484f-912c-1dbe132ebad7/public_url" target="_blank"
-            class="accredition">
-            <img class="badges" src="/assets/images/badges/excel-essentials-for-data-analytics.png"
-                alt="Excel Essentials for Data Analytics" title="View Credential">
-        </a>
-    </div>
-
-    <div>
-        <a href="https://www.credential.net/374b93e3-87a5-423d-b8c2-7af67df10723" target="_blank" class="accredition">
-            <img class="badges" src="/assets/images/badges/MECC_completion_badge.png" alt="MECC completion badge"
-                title="View Credential">
-        </a>
-    </div>
-
-    <div>
-        <a href="https://www.credential.net/374b93e3-87a5-423d-b8c2-7af67df10723" target="_blank" class="accredition">
-            <img class="badges" src="/assets/images/badges/MECC_completion_badge.png" alt="MECC completion badge"
-                title="View Credential">
-        </a>
-    </div>
+    {% endfor %}
 
 </div>
