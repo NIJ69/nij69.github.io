@@ -1,0 +1,27 @@
+.post-item {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    background-color: beige;
+    margin: 10px;
+    padding: 10px;
+}
+
+.post-image {
+
+    img {
+        margin: 5px;
+    }
+}
+
+.post-content {
+    padding-left: 15px;
+
+    p {
+        margin-top: 0;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

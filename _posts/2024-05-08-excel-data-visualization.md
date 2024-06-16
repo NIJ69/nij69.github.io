@@ -1,6 +1,7 @@
 ---
 title: Data Visualization in MS Excel
 image: /assets/images/post_excel/title.png
+excerpt: "Dive into advanced SQL techniques to optimize your database queries, enhance performance, and master complex data manipulations. This will be an example of truncated text. Let's see what happens!!"
 ---
 
 ## Introduction

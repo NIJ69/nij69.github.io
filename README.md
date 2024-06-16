@@ -11,3 +11,5 @@ Making and hosting a website with GitHub pages and Jekyll is super easy if you h
 - For making favicons: [RealFaviconGenerator](https://realfavicongenerator.net/)
 
 - For jekyll solutions without plugins: [JekyllCodex](https://jekyllcodex.org/without-plugins/)
+
+- SQL Exercise (PostgreSQL): [https://pgexercises.com/]

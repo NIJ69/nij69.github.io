@@ -1,5 +1,7 @@
 ---
 title:  "Welcome to Jekyll!"
+excerpt: "Dive into advanced SQL techniques to optimize your database queries, enhance performance, and master complex data manipulations."
+
 ---
 
 **Hello world**, this is my first Jekyll blog post.

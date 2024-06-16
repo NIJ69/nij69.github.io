@@ -24,3 +24,8 @@ defaults:
     values:
       layout: "post"
       permalink: /posts/:title
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:title
