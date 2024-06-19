@@ -105,15 +105,14 @@ ORDER BY t.salary_year_avg DESC;
 <div class="df_before" markdown="1">
 <p class="table_caption">In-demand Skills for Data Analytics</p>
 
-|    | skills   |   demand_count | visuals              |
-|----|:----------|----------------|:---------------------|
-|  0 | sql      |          92628 | #################### |
-|  1 | excel    |          67031 | ##############       |
-|  2 | python   |          57326 | ############         |
-|  3 | tableau  |          46554 | ##########           |
-|  4 | power bi |          39468 | #########            |
-|  5 | r        |          30075 | ######               |
-|  6 | sas      |          28068 | ######               |
+|    | skills   |   demand_count |   avg_associated_salary | bar_chart            |
+|----|:---------|----------------|-------------------------|:---------------------|
+|  0 | sql      |           7291 |                   97237 | !!!!!!!!!!!!!!!!!!!! |
+|  1 | excel    |           4611 |                   87288 | !!!!!!!!!!!!!        |
+|  2 | python   |           4330 |                  101397 | !!!!!!!!!!!!         |
+|  3 | tableau  |           3745 |                   99288 | !!!!!!!!!!           |
+|  4 | power bi |           2609 |                   97431 | !!!!!!!              |
+|  5 | r        |           2142 |                  100499 | !!!!!!               |
 
 </div>
 </div>
