@@ -16,16 +16,25 @@ sass:
     - "assets/css"
     - "_sass"
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      permalink: /posts/:title
 
 collections:
   projects:
     output: true
-    permalink: /:collection/:title
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /posts/:title/
+  
+  -
+    scope:
+      path: ""
+      type: projects
+    values:
+      layout: post
+      permalink: /:collection/:title/
