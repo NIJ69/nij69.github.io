@@ -13,7 +13,7 @@ ordered list
 ------------------------------------------------------------
 */
 ol {
-    margin: .7em .25em 0;
+    margin: .5em .25em;
     list-style-type: decimal;
     padding-left: 3.5em;
 }
@@ -24,7 +24,7 @@ unordered list
 -----------------------------------------------------------
 */
 ul {
-    margin: .7em .25em 0;
+    margin: .5em .25em;
     padding-left: 3.5em;
 }
 
